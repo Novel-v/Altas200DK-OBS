@@ -1,0 +1,17 @@
+#!/usr/bin/expect
+
+# 设置超时时间
+set timeout 999
+
+# 启动交互式程序（这里以 build 命令为例）
+set script_path "/home/HwHiAiUser/projectv0.1/DeblurGAN/scripts/sample_build.sh"
+spawn bash $script_path
+
+# 等待提示符出现
+expect "please input TargetKernel?"
+
+# 发送输入内容
+send "arm\r"
+
+# 等待命令执行完成
+expect eof
