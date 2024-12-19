@@ -67,4 +67,4 @@ python3.9 project_run.py
 
 #### 代码流程：
 
-<img src="/Users/andywilliams/Desktop/截屏2024-12-19 09.36.56.png" alt="截屏2024-12-19 09.36.56" style="zoom:50%;" />
+<img src="./流程.png" alt="流程" style="zoom:50%;" />
